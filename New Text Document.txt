@@ -1,0 +1,41 @@
+
+lovely@DESKTOP-HH0U8R9 MINGW64 ~/Desktop/Jemenia
+$ git init
+Initialized empty Git repository in C:/Users/lovely/Desktop/Jemenia/.git/
+
+lovely@DESKTOP-HH0U8R9 MINGW64 ~/Desktop/Jemenia (master)
+$ git add .
+
+lovely@DESKTOP-HH0U8R9 MINGW64 ~/Desktop/Jemenia (master)
+$ git commit -m "my web"
+[master (root-commit) 84844e0] my web
+ 12 files changed, 58 insertions(+)
+ create mode 100644 Kenn.html
+ create mode 100644 css/moon.jpg
+ create mode 100644 css/style.css
+ create mode 100644 cut.jpg
+ create mode 100644 everest2.png
+ create mode 100644 frack.png
+ create mode 100644 heavy.png
+ create mode 100644 ice.jpg
+ create mode 100644 melt.png
+ create mode 100644 mock.jpg
+ create mode 100644 sa.jpg
+ create mode 100644 time.jpg
+
+lovely@DESKTOP-HH0U8R9 MINGW64 ~/Desktop/Jemenia (master)
+$ git remote add origin https://github.com/KenVincentJemenia/my-portfolio.git
+
+lovely@DESKTOP-HH0U8R9 MINGW64 ~/Desktop/Jemenia (master)
+$ git push origin master
+Enumerating objects: 15, done.
+Counting objects: 100% (15/15), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (15/15), done.
+Writing objects: 100% (15/15), 3.79 MiB | 686.00 KiB/s, done.
+Total 15 (delta 0), reused 0 (delta 0)
+To https://github.com/KenVincentJemenia/my-portfolio.git
+ * [new branch]      master -> master
+
+lovely@DESKTOP-HH0U8R9 MINGW64 ~/Desktop/Jemenia (master)
+$
